@@ -1,0 +1,55 @@
+
+import { NewsPost } from './types';
+
+export const INITIAL_NEWS: NewsPost[] = [
+  {
+    id: '1',
+    title: 'EXCLUSIVO: Vídeo de famosa influencer em festa privada vaza e web reage',
+    excerpt: 'Imagens mostram a influencer em situação inusitada durante uma festa VIP em São Paulo.',
+    content: 'O mundo das celebridades foi pego de surpresa na manhã desta terça-feira. Um vídeo circulando nos grupos de WhatsApp mostra uma famosa influencer, cujo nome estamos preservando inicialmente, em um momento bastante descontraído em uma cobertura de luxo. Os fãs estão divididos entre críticas e defesa da liberdade da artista.',
+    category: 'Flagras',
+    mediaType: 'video',
+    thumbnail: 'https://images.unsplash.com/photo-1514525253361-bee8718a74a7?w=800&q=80',
+    views: '1.2M',
+    date: '10 min atrás',
+    author: 'Redação Banda',
+    isHot: true,
+  },
+  {
+    id: '2',
+    title: 'Crise no Reality? Participante ameaça tocar o sino após discussão generalizada',
+    excerpt: 'O clima esquentou na sede após a formação da última roça. Entenda o que aconteceu.',
+    content: 'A pressão do confinamento parece ter atingido o limite para um dos favoritos do público. Após uma discussão acalorada sobre a divisão de tarefas, o participante se dirigiu ao sino e por pouco não desistiu do prêmio milionário.',
+    category: 'Reality',
+    mediaType: 'video',
+    thumbnail: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80',
+    views: '850K',
+    date: '1 hora atrás',
+    author: 'Léo Fofoca',
+  },
+  {
+    id: '3',
+    title: 'Influenciador digital compra mansão de R$ 20 milhões e mostra detalhes',
+    excerpt: 'Novo imóvel conta com heliponto, piscina olímpica e 12 suítes.',
+    content: 'O sucesso nas redes sociais rende frutos! Desta vez, o influenciador do momento abriu as portas de sua nova residência em um condomínio fechado. O luxo é impressionante e gerou debate sobre o faturamento dos creators brasileiros.',
+    category: 'Influencers',
+    mediaType: 'image',
+    thumbnail: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80',
+    views: '500K',
+    date: '3 horas atrás',
+    author: 'Equipe Vazou',
+  },
+  {
+    id: '4',
+    title: 'Cantor sertanejo é visto com ex em jantar romântico; volta confirmada?',
+    excerpt: 'O casal que terminou há 6 meses foi flagrado em um restaurante discreto.',
+    content: 'Parece que o amor falou mais alto. O cantor sertanejo, que estava solteiro desde o meio do ano, foi visto em clima de romance total com sua ex-noiva. Fontes próximas afirmam que o anúncio oficial da volta deve acontecer em breve.',
+    category: 'Famosos',
+    mediaType: 'video',
+    thumbnail: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80',
+    views: '2.1M',
+    date: '5 horas atrás',
+    author: 'Redação Banda',
+    isHot: true,
+  }
+];

@@ -1,0 +1,8 @@
+{
+  "name": "Vazou na Banda",
+  "description": "A high-energy gossip and entertainment portal inspired by viral news sites, featuring breaking stories, celebrity leaks (mock), and trending media.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
